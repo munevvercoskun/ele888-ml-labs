@@ -1,0 +1,18 @@
+[project]
+name = "ele888-ml-labs"
+version = "1.0.0"
+description = "From-scratch machine-learning algorithms from ELE 888, verified against scikit-learn"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
