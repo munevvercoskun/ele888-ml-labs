@@ -112,7 +112,7 @@ variance and the picture is still clearly readable.
 
 - **No unit tests.** This is a learning/portfolio repo; the "test" is that each algorithm
   reproduces scikit-learn's result, which the scripts print every run.
-- **No kernel SVM from scratch.** Covered above — intentional.
+- **No kernel SVM from scratch.** Covered above.
 - **The networks use plain SGD, not Adam or mini-batches.** Enough to make the point and
   match the lab; a production net would use an optimiser and batching (see the
   large-scale-ML section of my course notes).
